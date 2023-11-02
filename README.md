@@ -30,13 +30,13 @@ This solution demonstrates AWS S3/Lambda integration with Open AI speech to text
 
 ## Environment variables
 
-This solution has the following configurable variables. Update them according to your needs.
+This solution has the following configurable variables (in .env file). Update them according to your needs.
 
 
 | Name | Value | Description |
 |--|--|--|
 | REGION | us-east-1 | AWS region where your infrastructure is deployed |
-| OPENAI_API_KEY (required) | your_api_key | [Open AI API key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key) to make calls to the speech to text endpoints  |
+| OPENAI_API_KEY **(required)** | your_api_key | [Open AI API key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key) to make calls to the speech to text endpoints  |
 | OPENAI_API_RESPONSE_FORMAT| json | Open AI API response format. Supported values: json, text, srt, verbose_json, vtt |
 | INPUT_TRANSCRIPTION_BUCKET_NAME | your-transcription-input-bucket | S3 bucket where the source audio file is uploaded |
 | OUTPUT_TRANSCRIPTION_BUCKET_NAME | your-transcription-output-bucket | S3 bucket where the result transcription text file is uploaded |
@@ -49,7 +49,7 @@ This solution has the following configurable variables. Update them according to
 Prerequisites:
 - [Node.js](https://nodejs.org/en/download)
 - AWS CDK CLI (run `npm install -g aws-cdk`)
-- [AWS credentials] (https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html#getting_started_auth)
+- [AWS credentials](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html#getting_started_auth)
 
 If you are not familiar with AWS CDK, please check the [getting started guide] (https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html)
 
