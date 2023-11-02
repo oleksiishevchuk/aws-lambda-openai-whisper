@@ -51,7 +51,7 @@ Prerequisites:
 - AWS CDK CLI (run `npm install -g aws-cdk`)
 - [AWS credentials](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html#getting_started_auth)
 
-If you are not familiar with AWS CDK, please check the [getting started guide] (https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html)
+If you are not familiar with AWS CDK, please check the [getting started guide](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html)
 
 Run the following command to deploy AWS resources:
 `cdk deploy`
