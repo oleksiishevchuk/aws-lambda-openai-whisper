@@ -1,4 +1,4 @@
-# AWS S3/Lambda integaration with Open AI API (Whisper model)
+# AWS S3/Lambda integaration with Open AI API (Whisper model) and AWS CDK
 This solution demonstrates AWS S3/Lambda integration with Open AI speech to text API (Whisper model) to transcribe/translate audio files to the text format. AWS resources are deployed using AWS CDK infrastructure as code.
 
 ## Architecture
