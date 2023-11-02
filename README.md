@@ -1,4 +1,4 @@
-# AWS S3/Lambda integaration with Open AI API (Whisper model) and AWS CDK
+# AWS S3/Lambda integaration with Open AI API (Whisper) and AWS CDK
 This solution demonstrates AWS S3/Lambda integration with Open AI speech to text API (Whisper model) to transcribe/translate audio files to the text format. AWS resources are deployed using AWS CDK infrastructure as code.
 
 ## Architecture
@@ -54,6 +54,7 @@ Prerequisites:
 If you are not familiar with AWS CDK, please check the [getting started guide](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html)
 
 Run the following command to deploy AWS resources:
+
 `cdk deploy`
 
 ![CDK deployment successful](/docs/cdk_deployment.png)
@@ -61,6 +62,7 @@ Run the following command to deploy AWS resources:
 ## Cleanup
 
 Run the following command to cleanup AWS resources:
+
 `cdk destroy`
 
 ## Useful links
